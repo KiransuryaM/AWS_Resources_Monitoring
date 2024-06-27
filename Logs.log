@@ -11,8 +11,8 @@ printing IAM Users
 + aws iam list-users
 {
     "Users": []
-    }
-    + echo 'Lambda functions'
+ }
+ + echo 'Lambda functions'
     Lambda functions
     + aws lambda list-functions
     {
