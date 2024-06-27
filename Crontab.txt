@@ -1,0 +1,4 @@
+PATH=/usr/local/bin:/usr/bin:/bin:/home/ubuntu
+
+45 22 * * * /home/ubuntu/AWS_Resource_Tracker.sh >> /home/ubuntu/Logs.log 2>&1
+

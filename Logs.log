@@ -1,0 +1,21 @@
++ echo 'prinitng about s3 buckets'
+prinitng about s3 buckets
++ aws s3 ls
++ echo 'printing ec2 instances'
+printing ec2 instances
++ aws ec2 describe-instances
++ jq '.Reservations[].Instances[].InstanceId'
+"i-0940611598abda18f"
++ echo 'printing IAM Users'
+printing IAM Users
++ aws iam list-users
+{
+    "Users": []
+    }
+    + echo 'Lambda functions'
+    Lambda functions
+    + aws lambda list-functions
+    {
+        "Functions": []
+	}
+
